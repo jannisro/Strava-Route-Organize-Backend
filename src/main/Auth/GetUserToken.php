@@ -91,7 +91,7 @@ class GetUserToken {
         }
         return $this->sendErrorResponse(
             Response::HTTP_SERVICE_UNAVAILABLE,
-            'Invalid response from the Strava API received'
+            'Received invalid response from the Strava API'
         );
     }
 

@@ -14,7 +14,10 @@
     },
     "autoload": {
         "psr-4": {
-            "App\\": "src"
+            "App\\": "src",
+            "App\\Main\\": "src/main",
+            "App\\Main\\Auth\\": "src/main/Auth",
+            "App\\Main\\Routes\\": "src/main/Routes"
         }
     }
 }
